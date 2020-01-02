@@ -1,0 +1,8 @@
+// check if backdrop filter is supported ?
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter        : blur(10px);
+    background-color       : rgba(255, 255, 255, 0.5);
+  }
+}
